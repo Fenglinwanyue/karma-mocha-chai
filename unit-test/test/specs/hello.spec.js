@@ -1,5 +1,5 @@
 describe('a suite',()=>{
   it('test karma',()=>{
-    expect(0).to.equal(0)
+    expect(0).toBe(0)
   })
 })

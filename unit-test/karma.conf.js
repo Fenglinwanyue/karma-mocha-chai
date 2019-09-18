@@ -12,7 +12,8 @@ module.exports = function (config) {
     // 可用的框架：https://npmjs.org/browse/keyword/karma-adapter
     // frameworks to use
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
-    frameworks: ['mocha', 'sinon-chai'],
+    // frameworks: ['mocha', 'sinon-chai'],
+    frameworks: ['jasmine'],
 
 
     // 需要加载到浏览器的文件列表
